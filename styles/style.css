@@ -36,7 +36,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
-  width: 1920px;
+  width: 1903px;
 }
 
 .header-text {
@@ -69,19 +69,26 @@ main {
 }
 
 /* Failure Section and Achievement Section */
-.failure-section, .achievement-section {
+.failure-section,
+.achievement-section {
   display: flex;
   gap: 24px;
   margin: 130px 0;
 }
 
-.failure-section-text, .achievement-section-text {
+.failure-section-text,
+.achievement-section-text {
   width: 400px;
   padding-left: 88px;
   margin-top: 240px;
 }
 
-.failures, .achievements {
+.failure-section span {
+  color: #f15b22;
+}
+
+.failures,
+.achievements {
   font-size: 16px;
   line-height: 26px;
   color: #444343;
@@ -96,7 +103,63 @@ main {
   width: 700px;
   height: 750.875px;
   border-radius: 100%;
+  border: 10px solid hsla(84, 67%, 50%, 0.22);
 }
+
+.achievement-section span {
+  color: #8fd32a;
+}
+
 .achievement-section i {
   color: rgba(140, 207, 39, 0.849);
+}
+
+/* Plan Section */
+.my-plan {
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.my-plan-container {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+}
+
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
+
+/* Contact Section */
+.contact {
+  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;;
+  background-size: cover;
+  margin-bottom: 130px;
+}
+
+.contact .section-title {
+  color: #ffffff;
+  padding-top: 60px;
+  padding-left: 65px;
+  line-height: 47px;
+}
+
+.contact .btn-primary {
+  background-color: #ffffff;
+  color: #F15B22;
+  margin: 0 0 60px 65px;
 }
