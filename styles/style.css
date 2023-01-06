@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Reusable Styles */
+.btn-primary {
+  background: #f15b22;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px 26px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  padding-bottom: 24px;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding-bottom: 16px;
+}
+
+/* Header */
+header {
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1920px;
+}
+
+.header-text {
+  width: 25%;
+  text-align: right;
+  position: absolute;
+  right: 200px;
+  top: 280px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  margin-bottom: 24px;
+  color: #151414;
+}
+
+.header-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+
+/* main */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Failure Section and Achievement Section */
+.failure-section, .achievement-section {
+  display: flex;
+  gap: 24px;
+  margin: 130px 0;
+}
+
+.failure-section-text, .achievement-section-text {
+  width: 400px;
+  padding-left: 88px;
+  margin-top: 240px;
+}
+
+.failures, .achievements {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  display: inline-block;
+}
+
+.failure-section i {
+  color: rgba(241, 93, 34, 0.588);
+}
+
+.achievement-section img {
+  width: 700px;
+  height: 750.875px;
+  border-radius: 100%;
+}
+.achievement-section i {
+  color: rgba(140, 207, 39, 0.849);
+}
