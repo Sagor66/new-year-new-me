@@ -144,9 +144,14 @@ main {
 
 /* Contact Section */
 .contact {
-  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
   background-repeat: no-repeat;
-  border-radius: 8px;;
+  border-radius: 8px;
   background-size: cover;
   margin-bottom: 130px;
 }
@@ -160,6 +165,53 @@ main {
 
 .contact .btn-primary {
   background-color: #ffffff;
-  color: #F15B22;
+  color: #f15b22;
   margin: 0 0 60px 65px;
+}
+
+/* Footer Section */
+.footer-section {
+  display: flex;
+  gap: 330px;
+  background-color: #151414;
+}
+
+.footer-left {
+  padding: 130px 0px 130px 400px;
+}
+.footer-left h3,
+.footer-left p {
+  color: #ffffff;
+}
+.footer-left p {
+  margin-bottom: 8px;
+}
+.footer-left img {
+  margin-right: 17px;
+}
+
+.footer-right {
+  padding: 130px 430px 130px 0;
+}
+
+.footer-right h5 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 32px;
+}
+.footer-right input {
+  background-color: #151414;
+  border: 2px solid #737272;
+  padding: 20px;
+  border-radius: 8px;
+  color: #F3F3F3;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.footer-right .btn-primary {
+  background-color: #ffffff;
+  color: #f15b22;
 }
