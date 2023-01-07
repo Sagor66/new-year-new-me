@@ -31,6 +31,14 @@
 }
 
 /* Header */
+/* header {
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+} */
+
 .header-img {
   width: 100%;
   position: relative;
